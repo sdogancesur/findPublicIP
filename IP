@@ -1,0 +1,13 @@
+package main
+
+import (
+	"fmt"
+	"net"
+)
+
+func main() {
+	iprecords, _ := net.LookupIP("sdogancesur.com")
+	for _, publicipAdress := range iprecords {
+		fmt.Println(publicipAdress)
+	}
+}
