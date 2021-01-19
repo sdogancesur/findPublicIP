@@ -1,4 +1,4 @@
 # findPublicIP
 Finding IP with Go[lang]
 
-Go programlama dili ile bir web sitesinin Ip'sini öğrenmek için
+To learn the IP of a website with the Go programming language
